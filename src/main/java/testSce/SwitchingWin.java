@@ -37,5 +37,6 @@ public class SwitchingWin {
 		System.out.println(chkSignin);
 		Assert.assertEquals(chkSignin, true);
 		driver.quit();
+		System.out.println("Test Execution is done!!");
 	}
 }
